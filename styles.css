@@ -1,0 +1,73 @@
+/* Reseteo básico y fondo de la pantalla */
+body {
+    background-color: #1e1e1e; /* Fondo oscuro exterior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* La tarjeta principal */
+.card {
+    background-color: #333333; /* Color de la tarjeta */
+    border-radius: 15px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin: 0;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.label {
+    color: #e0e0e0;
+    font-size: 1.4rem;
+    margin: 10px 0 20px 0;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1rem;
+}
+
+.trend.up {
+    color: #4ade80; /* Verde de la flecha y porcentaje */
+    font-weight: 600;
+}
+
+.period {
+    color: #a3a3a3; /* Gris claro del texto final */
+}
+
+/* Contenedor circular del ícono */
+.icon-container {
+    background-color: #5c4738; /* Círculo marrón/naranja oscuro */
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container i {
+    color: #fca5a5; /* Color del icono de mensaje */
+    font-size: 1.8rem;
+}
